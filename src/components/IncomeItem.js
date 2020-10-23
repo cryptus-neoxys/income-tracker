@@ -3,7 +3,7 @@ import React from "react";
 function IncomeItem({ income, index, removeIncome }) {
     let date = new Date(income.date);
     let day = date.getDate();
-    let month = date.getMonth() + 1;
+    let month = date.getMonth();
     let year = date.getFullYear();
 
     const removeHandler = (i) => {

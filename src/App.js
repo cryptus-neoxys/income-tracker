@@ -9,6 +9,12 @@ function App() {
   const [income, setIncome] = useState([]);
   const [totalIncome, setTotalIncome] = useState(0);
 
+  // useEffect(async () => {
+  //   let res = await fetch('https://income-tracker-940de.firebaseio.com/orders.json');
+  //   let data = await res.json();
+  //   console.log(data);
+  // })
+
   useEffect(() => {
     let temp = 0;
     for (let i = 0; i < income.length; ++i) {
