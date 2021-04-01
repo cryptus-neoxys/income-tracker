@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Header({ totalIncome }) {
+    
     return (
         <header>
             <h1>Income</h1>
